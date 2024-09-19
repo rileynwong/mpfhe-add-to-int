@@ -1,6 +1,8 @@
 
 ## Multi-party Fully Homomorphic Encryption (MPFHE) 
-```
+
+`add_to_int.cc`:
+```cpp
 #pragma hls_top
 int add_to_int(int state, int int_to_add){
     return state + int_to_add;
